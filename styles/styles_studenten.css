@@ -350,6 +350,7 @@ h2 {
         background-color: var(--hoofd-kleur);
         color: white;
         height: 400px;
+        margin-top: 30px;
 }
 
 
@@ -393,3 +394,77 @@ h2 {
     text-decoration: underline;
 }
 
+
+.artikel-1 {
+    border: 6px solid var(--accent-kleur);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-leesmeer-1 {
+    color: white;
+    background-color: var(--hoofd-kleur);
+    padding: 10px 30px 10px 30px; 
+    border-radius: 40px;
+    margin-left: 75px;
+    text-decoration: none;
+}
+
+.sub-logo2 {
+    margin-left: 200px;
+}
+
+
+.artikel-2 {
+    border: 6px solid var(--hoofd-kleur);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-leesmeer-2 {
+    color: white;
+    background-color: var(--accent-kleur);
+    padding: 10px 30px 10px 30px; 
+    border-radius: 40px;
+    margin-left: 75px;
+    text-decoration: none;
+}
+
+.artikel-3 {
+    border: 6px solid var(--accent-kleur);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-leesmeer-3 {
+    color: white;
+    background-color: var(--hoofd-kleur);
+    padding: 10px 30px 10px 30px; 
+    border-radius: 40px;
+    margin-left: 75px;
+    text-decoration: none;
+}
+
+.sub-logo4 {
+    margin-left: 200px;
+}
+
+
+.artikel-4 {
+    border: 6px solid var(--hoofd-kleur);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-leesmeer-4 {
+    color: white;
+    background-color: var(--accent-kleur);
+    padding: 10px 30px 10px 30px; 
+    border-radius: 40px;
+    margin-left: 75px;
+    text-decoration: none;
+}
