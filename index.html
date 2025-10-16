@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles/styles_studenten.css">
 </head>
 <body>
-
     <header>
         <nav class="main-nav">
             <div class="nav-links">
@@ -24,21 +23,42 @@
             </div>
         </nav>
 
-        <nav class="sub-nav">
-            <img class="logo-ad-connect" src="assets/AdConnect logo.png" alt="logo-ad-connect" width="200">
-            <img class="hamburger-menu" src="assets/hamburgermenu-Photoroom(1).png" alt="hamburger-menu" width="50">
 
-        <nav class="menu">
-                <ul>
-                   <li><a href="linkjenaarpagina">Wat is een Ad?</a></li>
-                   <li><a href="linkjenaarpagina">Doorstroom</a></li>
-                   <li><a href="linkjenaarpagina">Ad Talent Award</a></li>
-                   <li><a href="linkjenaarpagina">Evenementen</a></li>
-                   <li><a href="linkjenaarpagina">Contact</a></li>
-                </ul>
-            </nav>
+        <nav class="sub-nav">
+             <div class="logo-ad-connect">
+                <img class="logo-ad-connect" src="assets/AdConnect logo.png" alt="logo-ad-connect" width="200px">
+             </div>
+
+            <ul id="menuList">
+                <li><a href="">Wat is een Ad?</a></li>
+                <li><a href="">Doorstroom</a></li> 
+                <li><a href="">Ad Talent Award</a></li>
+                <li><a href="">Evenementen</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
         </nav>
+
+       <script>
+            let menuList = document.getElementById("menuList")
+            menuList.style.maxHeight = "0px" ;
+
+            function toggleMenu(){
+                if(menuList.style.maxHeight == "0px" )
+                {
+                   menuList.style.maxHeight = "300px";
+                }
+                else{
+                    menuList.style.maxHeight = "0px" ;
+                }
+            }
+        </script>
+    
+        <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
     </header>
+
 
     <main>
         <div class="banner">
