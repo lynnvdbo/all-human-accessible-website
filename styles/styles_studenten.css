@@ -52,6 +52,15 @@ body {
     color: black;
 }
 
+.sub-nav ul li a:hover {
+            @media (max-width: 1149px) {
+              text-decoration: none;
+              color: var(--accent-kleur)
+    }
+
+}
+
+
 .menu-icon i {
     font-size: 30px;
 }
@@ -72,6 +81,18 @@ body {
                margin-top: 0px;
     }
 }
+
+
+#menuList li:hover {
+        @media (min-width: 1149px) {
+               gap: 50px;
+               margin-top: 0px;
+               color: var(--accent-kleur);
+               text-decoration: underline;
+    }
+}
+
+
 
 
 .main-nav {
@@ -252,7 +273,7 @@ p {
 
                  @media (min-width: 1500px) {
                  margin-top: 50px;
-                gap: 70px; 
+                 gap: 70px; 
     }
 }
 
@@ -292,7 +313,15 @@ h2 {
 
 .datums li {
     list-style: none;
+}
 
+.datums p {
+    margin-bottom: 0px;
+}
+
+.data {
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .vergaderen-img {
@@ -305,3 +334,62 @@ h2 {
         object-fit: cover;
     }
 }
+
+.locatie a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.locatie a:hover{
+    color: var(--accent-kleur);
+    text-decoration: underline;
+}
+
+
+.footer-info {
+        background-color: var(--hoofd-kleur);
+        color: white;
+        height: 400px;
+}
+
+
+.footer-info img {
+   margin-top: 20px;
+   margin-left: 40px;
+}
+
+.footer-info h3 {
+   margin-left: 50px;
+   font-size: 17px;
+}
+
+.footer-info ul li {
+   margin-left: 10px;
+   list-style: none;
+   font-size: 14px;
+}
+
+.footer-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    color: var(--accent-kleur);
+    text-decoration: underline;
+}
+
+.mail-link {
+    margin-left: 50px;
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+}
+
+.mail-link:hover{
+    margin-left: 50px;
+    font-size: 14px;
+    color: var(--accent-kleur);
+    text-decoration: underline;
+}
+
