@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --hoofd-kleur: #112A46;
+    --accent-kleur: #9EB700;
+}
+
+.main-nav {
+    background-color: var(--hoofd-kleur);
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    font-size: 10px;
+}
+
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    margin-left: 7px;
+}
+
+
+.nav-rechts {
+    display: flex;
+    gap: 10px;
+    margin-right: 7px;
+}
+
+.zoekicon:hover {
+    scale: 1.2;
+}
+
+.nl-vlag:hover {
+    scale: 1.2;
+}
+
+.uk-vlag:hover {
+    scale: 1.2;
+}
+
+
+.sub-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-ad-connect {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 22px;       
+    margin-bottom: 60px;
+    margin-right: px;
+
+    @media (min-width: 810px) {
+        font-size: 45px;
+    }
+
+}
+
+.hamburger-menu {
+    display: flex;
+    justify-content: right;
+
+       @media (min-width: 1150px) {
+         display: none;
+    }
+}
+
+
+.menu {
+    display: none;
+    padding-left: 100px;
+    padding-right: 90px;
+    padding-top: 10px;
+    font-size: 17px;
+
+       @media (min-width: 1150px) {
+        display: flex;
+        justify-content: right;
+        gap: 40px;
+        list-style: none;
+    }
+}
+
+
+.menu ul {
+   display: none;
+   text-decoration: none;
+
+      @media (min-width: 1150px) {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+}
+
+.menu a {
+    @media (min-width: 1150px) {
+        text-decoration: none;
+        color: #000000;
+    }
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}   
+
+
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: brightness(40%); 
+
+      @media (min-width: 810px) {
+        font-size: 45px;
+        height: auto;
+        max-height: 430px;
+        object-fit: cover;
+    }
+}
+
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+
+.button-wat-is-een-ad {
+    background-color: var(--accent-kleur);
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-style: 16pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 8px; 
+    padding-right: 30px; 
+    padding-bottom: 8px; 
+    padding-left: 30px;    
+}
+
+
+.button-wat-is-een-ad:hover {
+  background-color: var(--hoofd-kleur);
+}
+
+p {
+    margin: 25px 30px 25px 30px; /*top left bottom right*/
+
+          @media (min-width: 810px) {
+             margin: 30px 110px 35px 110px;
+    }
+}
+ 
+#drie-knoppen a { 
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px; /*top left bottom right*/
+}
+
+
+
+.button-doorstroom {
+    background-color: var(--hoofd-kleur);
+    margin-bottom: 15px;
+
+}
+
+.button-evenementen {
+    background-color: var(--accent-kleur);
+    margin-bottom: 15px;
+
+}
+
+
+.button-ad-talent-award {
+    background-color: var(--hoofd-kleur);
+
+}
