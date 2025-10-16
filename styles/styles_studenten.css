@@ -199,14 +199,27 @@ p {
     margin-right: 30px;
     border-radius: 20px;
     padding: 10px 10px 10px 10px; /*top left bottom right*/
+
+              @media (min-width: 810px) {
+                 border-radius: 30px;
+                 padding: 10px 45px 10px 45px;
+                 margin-left: 0px;
+                 margin-right: 0px;
+    }
 }
 
+#drie-knoppen {
+          @media (min-width: 810px) {
+           display: flex;
+           gap: 30px;
+           justify-content: center;
+    }
+}
 
 
 .button-doorstroom {
     background-color: var(--hoofd-kleur);
     margin-bottom: 15px;
-
 }
 
 .button-evenementen {
@@ -218,5 +231,6 @@ p {
 
 .button-ad-talent-award {
     background-color: var(--hoofd-kleur);
+    margin-bottom: 15px;
 
 }
