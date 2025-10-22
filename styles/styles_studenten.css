@@ -102,31 +102,27 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-right: 10px;
-    padding-left: 10px; 
-    font-size: 10px;
 }
 
 
 .main-nav a {
     color: white;
     text-decoration: none;
+    font-size: 10px;
     
 }
 
 .nav-links {
     display: flex;
     gap: 10px;
-    margin-left: 7px;
+    margin-left: 10px;
 }
 
 
 .nav-rechts {
     display: flex;
     gap: 10px;
-    margin-right: 7px;
+    margin-right: 10px;
 }
 
 .zoekicon:hover {
@@ -237,7 +233,7 @@ p {
     }
 }
  
-#drie-knoppen a { 
+#vier-knoppen a { 
     display: flex;
     justify-content: center;
     color: white;
@@ -263,7 +259,7 @@ p {
     }
 }
 
-#drie-knoppen {
+#vier-knoppen {
           @media (min-width: 810px) {
            display: flex;
            gap: 30px;
@@ -278,34 +274,46 @@ p {
 }
 
 
-.button-doorstroom {
+.button-orienteren-op-een-ad-opleiding {
     background-color: var(--hoofd-kleur);
+    font-size: 15px;
     margin-bottom: 15px;
 }
 
-.button-doorstroom:hover {
+.button-orienteren-op-een-ad-opleiding:hover {
       background-color: #1f4e82
 }
 
-.button-evenementen {
+.button-studeren-in-een-ad-opleiding {
     background-color: var(--accent-kleur);
+    font-size: 15px;
     margin-bottom: 15px;
 }
 
-.button-evenementen:hover {
+.button-studeren-in-een-ad-opleiding:hover {
     background-color:#c4d44c
-    
 }
 
-
-.button-ad-talent-award {
+.button-werken-met-ad-talent {
     background-color: var(--hoofd-kleur);
+    font-size: 15px;
     margin-bottom: 15px;
 }
 
-.button-ad-talent-award:hover {
+.button-button-werken-met-ad-talent:hover {
       background-color: #1f4e82
 }
+
+.button-ontwikkelen-van-ad-onderwijs {
+    background-color: var(--accent-kleur);
+    font-size: 15px;
+}
+
+.button-ontwikkelen-van-ad-onderwijs :hover {
+    background-color:#c4d44c
+}
+
+
 
 h2 {
     margin: 25px 50px 25px 50px;
@@ -467,4 +475,10 @@ h2 {
     border-radius: 40px;
     margin-left: 75px;
     text-decoration: none;
+}
+
+svg {
+    circle {
+        fill: aqua;
+    }
 }
