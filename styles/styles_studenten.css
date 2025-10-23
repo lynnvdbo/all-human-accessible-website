@@ -1,9 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
     font-size: 16px;
     line-height: 1.4;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family:'Pathway Extreme';
 }
 
 :root {
@@ -354,13 +359,166 @@ h2 {
 }
 
 
+.artikel-1 {
+    border: 6px solid var(--accent-kleur);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.artikel-1 p {
+    /* text-align: center; */
+    margin-bottom: 50px;
+}
+
+.button-leesmeer-1 {
+    color: white;
+    background-color: var(--hoofd-kleur);
+    padding: 10px 30px 10px 30px; 
+    border-radius: 40px;
+    margin-left: 75px;
+    text-decoration: none;
+    position: relative;
+    top: -25px;
+}
+
+.sub-logo2 {
+    margin-left: 200px;
+}
+
+
+.artikel-2 {
+    border: 6px solid var(--hoofd-kleur);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.artikel-2 p {
+    /* text-align: center; */
+    margin-bottom: 50px;
+}
+
+.button-leesmeer-2 {
+    color: white;
+    background-color: var(--accent-kleur);
+    padding: 10px 30px 10px 30px; 
+    border-radius: 40px;
+    margin-left: 75px;
+    text-decoration: none;
+    position: relative;
+    top: -25px;
+}
+
+.artikel-3 {
+    border: 6px solid var(--accent-kleur);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.artikel-3 p {
+    /* text-align: center; */
+    margin-bottom: 50px;
+}
+
+.button-leesmeer-3 {
+    color: white;
+    background-color: var(--hoofd-kleur);
+    padding: 10px 30px 10px 30px; 
+    border-radius: 40px;
+    margin-left: 75px;
+    text-decoration: none;
+    position: relative;
+    top: -25px
+}
+
+.sub-logo4 {
+    margin-left: 200px;
+}
+
+
+.artikel-4 {
+    border: 6px solid var(--hoofd-kleur);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: -25px
+}
+
+.artikel-4 p {
+    /* text-align: center; */
+    margin-bottom: 50px;
+}
+
+.button-leesmeer-4 {
+    color: white;
+    background-color: var(--accent-kleur);
+    padding: 10px 30px 10px 30px; 
+    border-radius: 40px;
+    margin-left: 75px;
+    text-decoration: none;
+     position: relative;
+    top: -25px
+}
+
+
+.deelnemende-hogescholen {
+    padding: 64px 0;
+}
+
+.section-titel {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.logo-slider {
+    overflow: hidden;
+}
+
+.overlfow {
+    display: flex;
+    padding: .5rem 1rem;
+    overflow: hidden;
+}
+
+.logos-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content:  space-around;
+    animation: logoLoop 40s linear infinite;
+}
+
+.logo-item {
+    margin-left: 1rem;
+}
+
+@keyframes logoLoop {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+
+
+svg {
+    circle {
+        fill: aqua;
+    }
+}
+
+
 .footer-info {
         background-color: var(--hoofd-kleur);
         color: white;
         height: 400px;
         margin-top: 30px;
 }
-
 
 .footer-info img {
    margin-top: 20px;
@@ -400,85 +558,4 @@ h2 {
     font-size: 14px;
     color: var(--accent-kleur);
     text-decoration: underline;
-}
-
-
-.artikel-1 {
-    border: 6px solid var(--accent-kleur);
-    border-radius: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.button-leesmeer-1 {
-    color: white;
-    background-color: var(--hoofd-kleur);
-    padding: 10px 30px 10px 30px; 
-    border-radius: 40px;
-    margin-left: 75px;
-    text-decoration: none;
-}
-
-.sub-logo2 {
-    margin-left: 200px;
-}
-
-
-.artikel-2 {
-    border: 6px solid var(--hoofd-kleur);
-    border-radius: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.button-leesmeer-2 {
-    color: white;
-    background-color: var(--accent-kleur);
-    padding: 10px 30px 10px 30px; 
-    border-radius: 40px;
-    margin-left: 75px;
-    text-decoration: none;
-}
-
-.artikel-3 {
-    border: 6px solid var(--accent-kleur);
-    border-radius: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.button-leesmeer-3 {
-    color: white;
-    background-color: var(--hoofd-kleur);
-    padding: 10px 30px 10px 30px; 
-    border-radius: 40px;
-    margin-left: 75px;
-    text-decoration: none;
-}
-
-.sub-logo4 {
-    margin-left: 200px;
-}
-
-
-.artikel-4 {
-    border: 6px solid var(--hoofd-kleur);
-    border-radius: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.button-leesmeer-4 {
-    color: white;
-    background-color: var(--accent-kleur);
-    padding: 10px 30px 10px 30px; 
-    border-radius: 40px;
-    margin-left: 75px;
-    text-decoration: none;
-}
-
-svg {
-    circle {
-        fill: aqua;
-    }
 }
