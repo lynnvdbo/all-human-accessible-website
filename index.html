@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AllHumandAdConnect</title>
-    <!-- <link rel="icon" type="image/png" href="assets/AdConnect sublogo(1).png"> -->
     <link rel="stylesheet" href="styles/styles_studenten.css" />
   </head>
   <body>
     <header>
+
+
       <nav class="main-nav">
         <div class="nav-links">
           <a href="file:///Users/l.vdbosch/Documents/GitHub/all-human-accessible-website/index.html" class="contact">Contact</a>
@@ -21,41 +22,43 @@
         </div>
       </nav>
 
-      <nav class="sub-nav">
-        <div class="logo-ad-connect">
-          <img class="logo-ad-connect" src="assets/AdConnect logo.png" alt="logo-ad-connect" width="200"/>
-        </div>
+        <section class="ham-menu">
+            
+        <a href="#" class="logo"><img src="assets/AdConnect logo.png" alt=""></a>
+        <input type="checkbox" id="menu-toggle"
+        class="menu-toggle" />
+        <label for="menu-toggle" class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="burger-menu">
 
-        <ul id="menuList">
-          <li><a href="https://www.deassociatedegree.nl/">Wat is een Ad?</a></li>
-          <li><a href="https://www.deassociatedegree.nl/doorstroom/">Doorstroom</a></li>
-          <li><a href="https://www.deassociatedegree.nl/ad-talent-award-2025/">Ad Talent Award</a></li>
-          <li><a href="https://www.deassociatedegree.nl/nieuws-en-evenementen/">Evenementen</a></li>
-          <li><a href="https://www.deassociatedegree.nl/contact/">Contact</a></li>
-        </ul>
+            <div class="dropdown">
+                <a href="#">Voor wie?</a>
+                <div class="dropdown-menu">
+                    <a href="#">Oriënteren op een Ad-opleiding</a>
+                    <a href="#">Studeren in een Ad-opleiding</a>
+                    <a href="#">Werken met Ad-talent</a>
+                    <a href="#">Ontwikkelen van het Ad-stelsel</a>
+                 </div>  
+                </div>
 
-        <div class="menu-icon">
-          <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
-        </div>
-      </nav>
 
-      <script>
-        let menuList = document.getElementById("menuList");
-        menuList.style.maxHeight = "0px";
+            <div class="dropdown">
+                <a href="#">Wat is een Ad?</a>
+                <div class="dropdown-menu">
+                    <a href="#">Doorstroom</a>
+                 </div>  
+                </div>
+                    
+                <a href="#">Ad Talent Award</a>
+                <a href="#">Evenementen</a>
+                <a href="#">Contact</a>
+        
+        </nav>
+        </section>
 
-        function toggleMenu() {
-          if (menuList.style.maxHeight == "0px") {
-            menuList.style.maxHeight = "300px";
-          } else {
-            menuList.style.maxHeight = "0px";
-          }
-        }
-      </script>
-
-      <script
-        src="https://kit.fontawesome.com/f8e1a90484.js"
-        crossorigin="anonymous"
-      ></script>
     </header>
 
     <main>
@@ -104,7 +107,7 @@
            </div>
         </div>        
 
-        <img class="vergaderen-img" src="assets/vergaderen.jpg" alt="personenvergaderenaaneentafel"/>
+        <img class="vergaderen-img" src="assets/vergaderen.jpg" alt="personen vergaderen aan een tafel"/>
 
 
       </section>
@@ -114,7 +117,7 @@
 
       <section class="laatste-nieuws">
         <div class="nieuws-1">
-          <img src="assets/AdConnect-sublogo(1).png" class="sub-logo1" alt="sub-logo" width="70"/>
+          <img src="assets/AdConnect-sublogo(1).png" class="sub-logo-links" alt="sub-logo-ad" width="70"/>
           <article>
             <p>YESSSS! Het spel Pionieren! is er! Ervaar het perspectief van pioniersstudenten en ontdek hoe jij écht verschil kunt maken</p>
             <a href="https://www.deassociatedegree.nl/doorstroom/" class="button-leesmeer">Lees meer ></a>
@@ -122,15 +125,15 @@
         </div>
 
         <div class="nieuws-2">
-          <img src="assets/AdConnect-sublogo(1).png" class="sub-logo2" alt="sub-logo" width="70"/>
+          <img src="assets/AdConnect-sublogo(1).png" class="sub-logo-rechts" alt="sub-logo-ad" width="70"/>
           <article class="article-blauw" >
             <p>YESSSS! Het spel Pionieren! is er! Ervaar het perspectief van pioniersstudenten en ontdek hoe jij écht verschil kunt maken</p>
-            <a href="https://www.deassociatedegree.nl/doorstroom/" class="button-leesmeer tekst-blauw">Lees meer ></a>
+            <a href="https://www.deassociatedegree.nl/doorstroom/" class="button-leesmeer tekst-blauw hover-groen">Lees meer ></a>
           </article>
         </div>
 
         <div class="nieuws-3">
-          <img src="assets/AdConnect-sublogo(1).png" class="sub-logo3" alt="sub-logo" width="70"/>
+          <img src="assets/AdConnect-sublogo(1).png" class="sub-logo-links" alt="sub-logo-ad" width="70"/>
           <article>
             <p>YESSSS! Het spel Pionieren! is er! Ervaar het perspectief van pioniersstudenten en ontdek hoe jij écht verschil kunt maken</p>
             <a href="https://www.deassociatedegree.nl/doorstroom/" class="button-leesmeer">Lees meer ></a>
@@ -138,10 +141,10 @@
         </div>
 
         <div class="nieuws-4">
-          <img src="assets/AdConnect-sublogo(1).png" class="sub-logo4" alt="sub-logo" width="70"/>
+          <img src="assets/AdConnect-sublogo(1).png" class="sub-logo-rechts" alt="sub-logo-ad" width="70"/>
           <article class="article-blauw">
             <p>YESSSS! Het spel Pionieren! is er! Ervaar het perspectief van pioniersstudenten en ontdek hoe jij écht verschil kunt maken</p>
-            <a href="https://www.deassociatedegree.nl/doorstroom/" class="button-leesmeer tekst-blauw">Lees meer ></a>
+            <a href="https://www.deassociatedegree.nl/doorstroom/" class="button-leesmeer tekst-blauw hover-groen">Lees meer ></a>
           </article>
         </div>
       </section>
