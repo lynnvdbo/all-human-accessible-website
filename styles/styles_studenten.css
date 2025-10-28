@@ -186,7 +186,7 @@ h1 {
 
 .button-wat-is-een-ad {
     background-color: var(--accent-kleur);
-    color: #ffffff;
+    color: var(--hoofd-kleur);
     border: none;
     border-radius: 20px;
     text-decoration: none;
@@ -243,7 +243,6 @@ p {
 #vier-knoppen a { 
     display: flex;
     justify-content: center;
-    color: white;
     text-decoration: none;
     margin-left: 45px;
     margin-right: 45px;
@@ -289,6 +288,7 @@ p {
 
 .button-orienteren-op-een-ad-opleiding {
     background-color: var(--hoofd-kleur);
+    color: white;
     font-size: 15px;
     margin-bottom: 15px;
 }
@@ -299,9 +299,13 @@ p {
 
 .button-studeren-in-een-ad-opleiding {
     background-color: var(--accent-kleur);
+    color: var(--hoofd-kleur);
+    font-weight: 600;
     font-size: 15px;
     margin-bottom: 15px;
 }
+
+
 
 .button-studeren-in-een-ad-opleiding:hover {
     background-color:#c4d44c
@@ -309,6 +313,7 @@ p {
 
 .button-werken-met-ad-talent {
     background-color: var(--hoofd-kleur);
+    color: white;
     font-size: 15px;
     margin-bottom: 15px;
 
@@ -327,6 +332,8 @@ p {
 
 .button-ontwikkelen-van-ad-onderwijs {
     background-color: var(--accent-kleur);
+    color: var(--hoofd-kleur);
+    font-weight: 600;
     font-size: 15px;
     margin-bottom: 15px;
 
@@ -522,6 +529,11 @@ article p {
     top: -25px;
 
 } 
+
+.tekst-blauw {
+    color: var(--hoofd-kleur);
+    font-weight: 600;
+}
 
 .button-leesmeer-1:hover {
     background-color:#1f4e82
