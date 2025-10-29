@@ -533,7 +533,7 @@ h2 {
 
 
 .locatie a:hover{
-    color: var(--accent-kleur);
+    color: var(--hoofd-kleur);
     text-decoration: underline;
 }
 
