@@ -542,6 +542,8 @@ h2 {
            display: grid;
            grid-template-columns: 1fr 1fr;
            grid-template-rows: 1fr 1fr;
+           width: 100%;
+           max-width: 100%;
     }            
 }
 
@@ -573,6 +575,18 @@ h2 {
         background-color: var(--accent-kleur);
     }
 }
+
+
+.nieuws-1, .nieuws-2, .nieuws-3, .nieuws-4 {
+   min-width: 0;
+}
+
+
+
+
+
+
+
 
 
 article {
