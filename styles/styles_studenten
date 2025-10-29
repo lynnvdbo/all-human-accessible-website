@@ -551,22 +551,12 @@ h2 {
 .laatste-nieuws-kop {
     text-align: center;
     margin-top: 40px;
-
-
-             @media (min-width: 1149px) {
-                margin-right: 240px;
-    }
 }
 
 
 .sub-logo-links {
     margin-left: 20px;
     margin-bottom: 8px;
-
-
-              @media (min-width: 1149px) {
-                margin-left: 300px;
-    }
 }
 
 .sub-logo-rechts {
@@ -575,10 +565,6 @@ h2 {
         margin-left: auto;
         margin-right: 20px;
         margin-bottom: 8px;
-
-                      @media (min-width: 1149px) {
-                           margin-right: 260px;
-    }
 }
 
 
@@ -589,24 +575,30 @@ h2 {
         background-color: var(--accent-kleur);
     }
 
-          @media (min-width: 1149px) {
-              margin-right: 260px;
-              margin-left: 40px;
-    }   
-
-}
-
-.article-groen {
               @media (min-width: 1149px) {
-              margin-left: 300px;
-              margin-right: 10px;
-    }   
+                 /* min-height: 114px; */
+                 max-height: 444px;
+                 min-width: 444px;
+                 max-width: 444px;
+}
 
 }
 
 
 .nieuws-1, .nieuws-2, .nieuws-3, .nieuws-4 {
    min-width: 0;
+}
+
+.nieuws-1, .nieuws-3 {
+   margin-left: 233px;
+}
+
+.nieuws-2, .nieuws-4 {
+
+             @media (min-width: 1149px) {
+                margin-rigt: 233px;
+}
+
 }
 
 
@@ -617,6 +609,15 @@ article {
     margin-right: 20px;  
     margin-bottom: 20px;
 
+
+                  @media (min-width: 1149px) {
+                 /* min-height: 114px; */
+                 max-height: 444px;
+                 min-width: 444px;
+                 max-width: 444px;
+}
+
+
 }
 
 article p {
@@ -625,22 +626,15 @@ article p {
     text-align: center;
     margin-bottom: 50px;
 
-          @media (min-width: 810px) {
-            display: block;
-            max-width: 80%;      /* optioneel, om tekst niet te breed te maken */
-            margin: 50px;   /* centreert de tekst in het midden */
-            text-align: center;  /* houdt de tekst gecentreerd */
-            line-height: 1.5;    /* zorgt voor prettige leesafstand */
-}   
-
 
           @media (min-width: 1149px) {
-            display: block;
-            max-width: 80%;  
-            margin: 50px;   
-            text-align: center;  
-            line-height: 1.5;    
-}    
+            display: inline-block; 
+            text-align: center;       
+            white-space: normal;     
+            margin-bottom: 50px;
+            margin-top: 50;
+            margin-left: 55px;
+    }   
 }
 
 .button-leesmeer {
@@ -653,13 +647,8 @@ article p {
     position: relative;
     top: -25px;
 
-              @media (min-width: 810x) {
-                margin-left: 99px;
-                  
-    } 
-
-          @media (min-width: 1149x) {
-            margin-left: 685px;
+          @media (min-width: 810px) {
+            margin-left: 100px;
     }     
 
 } 
@@ -680,10 +669,6 @@ article p {
 
 .section-titel {
     text-align: center;
-
-                 @media (min-width: 1149px) {
-                margin-right: 190px;
-    }
 }
 
 .logo-slider {
