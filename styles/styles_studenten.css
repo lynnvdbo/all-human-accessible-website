@@ -448,10 +448,11 @@ h2 {
 }
 
 .vergaderen {
-    
+
       @media (min-width: 1100px) {
         display: grid;
         grid-template-columns: 50% 50%;
+        background-color: color-mix(in srgb, var(--hoofd-kleur) 10%, transparent);
     }  
 }
 
@@ -459,6 +460,7 @@ h2 {
 .vergaderen-tekst {
       @media (min-width: 1100px) {
         margin-left: 100px;
+        margin-top: 35px;
 
     } 
 }
@@ -632,7 +634,6 @@ article p {
             text-align: center;  /* houdt de tekst gecentreerd */
             line-height: 1.5;    /* zorgt voor prettige leesafstand */
 }   
-
 
           @media (min-width: 1149px) {
             display: block;
