@@ -640,7 +640,7 @@ article p {
             max-width: 80%;  
             margin: 50px;   
             text-align: center;  
-            line-height: 1.5;    
+            line-height: 1.5;   
 }    
 }
 
@@ -660,10 +660,10 @@ article p {
     } 
 
           @media (min-width: 1149x) {
-            margin-left: 685px;
     }     
 
 } 
+
 
 .tekst-blauw {
     color: var(--hoofd-kleur);
